@@ -1,0 +1,19 @@
+📌 Real-Time Industry Data Types (Used in Big Data, Streaming, and Cloud Systems)
+Data Type	Used In	Example Value
+BIGINT (Large Integer)	IDs, timestamps, large datasets	1711012345678
+DOUBLE (High Precision Float)	Financial & analytical calculations	12345.6789
+DECIMAL (Fixed Precision Number)	Currency & accurate computations	100000.99
+STRING (Text Data)	Names, descriptions, logs	"Transaction Successful"
+VARCHAR (Variable-Length String)	Usernames, email IDs	"krishnanand@example.com"
+TEXT (Large Text Storage)	Logs, documents, JSON data	"Full product description"
+BOOLEAN (True/False Flag)	Feature toggles, statuses	TRUE or FALSE
+DATE (Date-Only Field)	Transaction dates, events	'2025-03-22'
+TIMESTAMP (Date & Time in Milliseconds)	Event tracking, logs	'2025-03-22 12:45:00'
+ARRAY (List of Values)	Multiple categories, tags	["Electronics", "Laptop"]
+STRUCT (Nested Objects)	JSON-like data storage	{ "city": "NY", "zip": "10001" }
+MAP (Key-Value Pairs)	NoSQL & Spark transformations	{ "name": "John", "age": 30 }
+BLOB (Binary Large Object)	Images, videos, PDFs storage	<binary data>
+UUID (Universal Unique Identifier)	Distributed system unique IDs	550e8400-e29b-41d4-a716-446655440000
+GEOLOCATION (Latitude/Longitude)	Location tracking, geospatial analytics	POINT(40.7128, -74.0060)
+INTERVAL (Time Duration)	Streaming data processing (e.g., Kafka windows)	INTERVAL '30' SECOND
+VARBINARY (Binary Data in Variable Length)	Encryption keys, multimedia data	<binary sequence>
